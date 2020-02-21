@@ -1,1 +1,15 @@
 // Mixins Here
+.vert(){
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.horz(){
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.butt(@color, @bgc){
+        color:@color;
+        background-color: @bgc;
+}
